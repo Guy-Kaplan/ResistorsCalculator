@@ -132,7 +132,7 @@ public class ResistorsCalculator
         frame.setSize(400,500);//400 width and 500 height  
         frame.setLayout(null);//using no layout managers  
         frame.setVisible(true);//making the frame visible 
-
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);//stop the app from running
     } // end of main
     
     public static double getTotalResistance(double r1, double r2, double r3){
